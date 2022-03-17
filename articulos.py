@@ -3,7 +3,7 @@ import mysql.connector
 class Articulos:
 
     def abrir(self):
-        conexion=mysql.connector.connect(host="localhost",user="root",passwd="",database="bd1")
+        conexion=mysql.connector.connect(host="ec2-34-224-226-38.compute-1.amazonaws.com",user="ufcvyyxsydvutt",passwd="739b1428db36ed90efd2b19a3b1423af8065b762b31fdfd56afead3455330b9c",database="da704k77u522r")
         return conexion
 
 
